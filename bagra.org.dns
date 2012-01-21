@@ -1,0 +1,30 @@
+@	1H	IN	SOA	ns3.on.net.mk.	administrator.on.net.mk.	(
+				2005010124   ; serial
+				10800        ; refresh
+				1800         ; retry
+				3600000      ; expire
+				259200     ) ; minimum TTL
+
+@       1H  IN  NS  ns.on.net.mk.
+@       1H  IN  NS  ns3.on.net.mk.
+
+@       1H  IN  MX  10 ms.on.net.mk.
+
+@       1H  IN  A   217.16.69.8
+www     1H  IN  A   217.16.69.8
+
+mail    1H  IN  A   217.16.69.3
+;rekl   1H  IN  A   217.16.95.6
+
+bnd     1H  IN  A  74.53.73.66
+goce    1H  IN  A 217.16.84.33
+;k0     1H  IN  A 217.16.86.7
+;old    1H  IN  A   217.16.69.8
+;idsb   1H  IN  A   217.16.69.8
+
+
+conference 1H  IN  A   217.16.69.19
+jabber	1H  IN  A     217.16.69.19
+proxy	1H  IN  A     217.16.69.19
+_xmpp-server._tcp 1H IN SRV 5 0 5269 jabber
+_xmpp-client._tcp 1H IN SRV 5 0 5222 jabber

@@ -1,0 +1,26 @@
+@	1H	IN	SOA	ns3.on.net.mk.	administrator.on.net.mk.	(
+				2003040741   ; serial
+				10800        ; refresh
+				1800         ; retry
+				3600000      ; expire
+				259200     ) ; minimum TTL
+
+@	1H	IN	NS	ns3.on.net.mk.
+@	1H	IN	NS	ns2.on.net.mk.
+
+@	1H	IN	MX	10	ASPMX.L.GOOGLE.COM.
+*	1H	IN	MX	10	ALT1.ASPMX.L.GOOGLE.COM.
+mail	1H	IN	CNAME	ghs.google.com.
+calendar 1H     IN      CNAME   ghs.google.com.
+start    1H     IN      CNAME   ghs.google.com.
+
+@	1H	IN	A	69.163.202.4
+www	1H	IN	A	69.163.202.4
+odf     1H      IN      A       69.163.202.4
+huckleberry 1H      IN      A        217.16.68.238
+npss     1H     IN CNAME        ghs.google.com.
+
+$ORIGIN lugola
+@	1H  IN  A 72.22.71.32
+@   1H  IN  MX 10 mail
+mail 1H  IN  A 72.22.71.32

@@ -1,0 +1,45 @@
+@   1H  IN  SOA ns3.on.net.mk.  administrator.on.net.mk.    (
+                2005040531   ; serial
+                10800        ; refresh
+                1800         ; retry
+                3600000      ; expire
+                259200    )  ; minimum TTL
+			
+
+@     1H  IN  NS     ns3.on.net.mk.
+@     1H  IN  NS     ns2.on.net.mk.
+@     1H  IN  NS     ns.on.net.mk.
+
+@       1H	IN 	MX	1	ASPMX.L.GOOGLE.COM.              
+@       1H	IN 	MX	5  	ALT1.ASPMX.L.GOOGLE.COM.
+@       1H	IN 	MX	5	ALT2.ASPMX.L.GOOGLE.COM. 
+@       1H	IN 	MX	10	ASPMX2.GOOGLEMAIL.COM. 
+@       1H	IN 	MX	10	ASPMX3.GOOGLEMAIL.COM. 
+@       1H	IN 	MX	10	ASPMX4.GOOGLEMAIL.COM. 
+@       1H	IN 	MX	10	ASPMX5.GOOGLEMAIL.COM. 
+mail    1H    	IN    	CNAME  		ghs.google.com.
+start   1H    	IN    	CNAME  		ghs.google.com.
+
+@       1H   	IN    	A      	69.163.202.4
+www     1H    	IN    	CNAME 	linux.net.mk.
+gnome   1H      IN      A       69.163.202.4
+ufo     1H      IN      A       69.163.202.4
+arangel 1H      IN      A       69.163.219.141
+stojmir 1H      IN      A       69.163.202.4
+ubuntu  1H      IN      A       69.163.202.4
+arch    1H      IN      A       92.55.94.9
+arch    1H      IN      AAAA    2001:470:1f14:1e77::2
+www.ubuntu 1H   IN      CNAME   ubuntu
+
+planet	1H 	IN 	A     	174.133.164.186
+
+_xmpp-server._tcp IN SRV 5 0 5269 xmpp-server.l.google.com.
+_xmpp-server._tcp IN SRV 20 0 5269 xmpp-server1.l.google.com.
+_xmpp-server._tcp IN SRV 20 0 5269 xmpp-server2.l.google.com.
+_xmpp-server._tcp IN SRV 20 0 5269 xmpp-server3.l.google.com.
+_xmpp-server._tcp IN SRV 20 0 5269 xmpp-server4.l.google.com.
+_jabber._tcp IN SRV 5 0 5269 xmpp-server.l.google.com.
+_jabber._tcp IN SRV 20 0 5269 xmpp-server1.l.google.com.
+_jabber._tcp IN SRV 20 0 5269 xmpp-server2.l.google.com.
+_jabber._tcp IN SRV 20 0 5269 xmpp-server3.l.google.com.
+_jabber._tcp IN SRV 20 0 5269 xmpp-server4.l.google.com.
