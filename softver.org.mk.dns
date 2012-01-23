@@ -38,10 +38,8 @@ kajmakot        IN A  174.133.164.186
 
 ; damjan
 damjan          IN A  77.93.223.195
-draft           IN A  77.93.223.195
-paste           IN A  77.93.223.195
-db              IN A  77.93.223.195
 irc             IN A  77.93.223.195
+paste           IN CNAME gdamjan.iriscouch.com.
 
 
 novica          IN A      69.163.202.4
