@@ -1,6 +1,6 @@
 $TTL 1h
 @	IN	SOA	ns3.on.net.mk.	administrator.on.net.mk.	(
-				2003040555   ; serial
+				2003040556   ; serial
 				2d           ; refresh
 				15m          ; retry
 				2w           ; expire
@@ -39,6 +39,7 @@ kajmakot        IN A  174.133.164.186
 ; damjan
 damjan          IN A  77.93.223.195
 irc             IN A  77.93.223.195
+db              IN A  77.93.223.195
 paste           IN CNAME gdamjan.iriscouch.com.
 
 
